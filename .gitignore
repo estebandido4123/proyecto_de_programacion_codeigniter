@@ -1,0 +1,23 @@
+# Archivo de variables de entorno (credenciales de BD, etc.)
+.env
+
+# Dependencias instaladas por Composer
+/vendor/
+
+# Archivos temporales, caché y logs de CodeIgniter
+/writable/cache/*
+/writable/debugbar/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+!/writable/cache/index.html
+!/writable/debugbar/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
+
+# Archivos del sistema operativo y VS Code
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
